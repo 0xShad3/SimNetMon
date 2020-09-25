@@ -2,6 +2,7 @@ from datetime import datetime
 from datetime import date
 import nmap
 import sys
+import platform
 import time
 import csv
 import asyncio
@@ -94,9 +95,17 @@ def scanNetwork(hostList):
 	return replaceCommonMACAddresses(hostList)
 	
 def keepLogs(logs):
-	with open(date.today().strftime("%d_%m_%y") + ".log","a+") as logfile:
-		logfile.write(logs)
-		logfile.close()
+	
+	if platform.system() == 'Linux' or platform.system() == 'Darwin':
+
+		with open("./logs/"date.today().strftime("%d_%m_%y") + ".log","a+") as logfile:
+			logfile.write(logs)
+			logfile.close()
+	else if platform.system() == 'Windows':
+
+		with open(".\\logs\\"date.today().strftime("%d_%m_%y") + ".txt","a+") as logfile:
+			logfile.write(logs)
+			logfile.close()
 
 def alert():
 	print("Alert")
