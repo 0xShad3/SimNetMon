@@ -1,0 +1,23 @@
+[+] Performing a NMAP scan ====> 19:40:10
+[+] Hosts found ===> 5 
+         :+: Name -> Xiaomi_User1 MAC -> [REDACTED_MAC_ADDR] IPv4 -> 192.168.1.1 Vendor -> Xiaomi Communications 
+         :+: Name -> User3 MAC -> [REDACTED_MAC_ADDR] IPv4 -> 192.168.1.2 Vendor -> Xiaomi Communications 
+         :+: Name -> _gateway MAC -> [REDACTED_MAC_ADDR] IPv4 -> 192.168.1.254 Vendor -> Zyxel Communications 
+         :+: Name -> [UNKNOWN] MAC ->  IPv4 -> [REDACTED_MAC_ADDR] Vendor -> 192.168.1.4 
+         :+: Name -> User2 MAC -> None IPv4 -> 192.168.1.66 Vendor -> None 
+[ALERT] Alerting owner new host connected
+[+] Performing a NMAP scan ====> 19:40:10
+[+] Hosts found ===> 5 
+         :+: Name -> Xiaomi_User1 MAC -> [REDACTED_MAC_ADDR] IPv4 -> 192.168.1.1 Vendor -> Xiaomi Communications 
+         :+: Name -> User3 MAC -> [REDACTED_MAC_ADDR] IPv4 -> 192.168.1.2 Vendor -> Xiaomi Communications 
+         :+: Name -> _gateway MAC -> [REDACTED_MAC_ADDR] IPv4 -> 192.168.1.254 Vendor -> Zyxel Communications 
+         :+: Name -> [UNKNOWN] MAC ->  IPv4 -> [REDACTED_MAC_ADDR] Vendor -> 192.168.1.4 
+         :+: Name -> User2 MAC -> None IPv4 -> 192.168.1.66 Vendor -> None 
+[ALERT] Alerting owner new host connected
+[+] Performing a NMAP scan ====> 19:47:51
+[+] Hosts found ===> 5 
+         :+: Name -> Xiaomi_User1 MAC -> [REDACTED_MAC_ADDR] IPv4 -> 192.168.1.1 Vendor -> Xiaomi Communications 
+         :+: Name -> User3 MAC -> [REDACTED_MAC_ADDR] IPv4 -> 192.168.1.2 Vendor -> Xiaomi Communications 
+         :+: Name -> _gateway MAC -> [REDACTED_MAC_ADDR] IPv4 -> 192.168.1.254 Vendor -> Zyxel Communications 
+         :+: Name -> TPLink_User4 MAC -> [REDACTED_MAC_ADDR] IPv4 -> 192.168.1.4 Vendor -> Tp-link Technologies 
+         :+: Name -> User2 MAC -> None IPv4 -> 192.168.1.66 Vendor -> None 
