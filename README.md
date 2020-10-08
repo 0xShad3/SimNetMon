@@ -1,5 +1,5 @@
 # SimNetMon
-Small and simple Netowrk monitoring written in Python3 that you can control via a Discord Bot remotely.
+Small and simple Network monitoring written in Python3 that you can control via a Discord Bot remotely.
 
 ## Simple Script to monitor your network
 
